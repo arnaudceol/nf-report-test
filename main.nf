@@ -9,7 +9,7 @@ process foo {
 
     script:
       """
-      echo "done!!!" > report.txt
+      echo "This is my report" > report.txt
       """
 }
 
