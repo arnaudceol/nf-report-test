@@ -2,7 +2,7 @@ nextflow.enable.dsl=2
 
 process foo {
 
-    publishDir '/hpcscratch/ieo/ieo3004/reports/' 
+    publishDir 'reports/' 
 
     output:
       path 'report.txt'
